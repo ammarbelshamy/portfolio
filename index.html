@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      content="Portfolio of Ammar Elshamy - AI Student & Machine Learning Enthusiast"
+      name="description"
+    />
+    <meta
+      content="Machine Learning, Data Analysis, AI, Ammar Elshamy, Portfolio, Python, Artificial Intelligence"
+      name="keywords"
+    />
+    <meta content="Ammar Belal Elshamy" name="author" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Ammar Elshamy - AI & ML Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS Animation Library -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+  </head>
+  <body class="transition-colors duration-500">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-sm z-50">
+      <div class="max-w-6xl mx-auto px-4 py-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <h1 class="text-2xl font-bold gradient-text mb-4 md:mb-0">
+            Ammar Elshamy
+          </h1>
+          <div class="flex items-center gap-6">
+            <a class="nav-link text-gray-600 hover:text-blue-600" href="#about"
+              >About</a
+            >
+            <a
+              class="nav-link text-gray-600 hover:text-blue-600"
+              href="#projects"
+              >Projects</a
+            >
+            <div class="flex gap-4">
+              <a
+                class="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+                href="https://wa.me/201061637314"
+                rel="noopener"
+                target="_blank"
+                ><i class="fab fa-whatsapp text-xl"></i
+              ></a>
+              <a
+                class="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+                href="mailto:elshamyammar38@gmail.com"
+                ><i class="fas fa-envelope text-xl"></i
+              ></a>
+              <a
+                class="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+                href="https://github.com/ammarbelshamy"
+                ><i class="fab fa-github text-xl"></i
+              ></a>
+              <a
+                class="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+                href="https://www.linkedin.com/in/ammar-elshamy-27958725a"
+                rel="noopener"
+                target="_blank"
+                ><i class="fab fa-linkedin text-xl"></i
+              ></a>
+              <button
+                id="toggle-dark"
+                aria-label="Toggle dark mode"
+                class="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+              >
+                <i class="fas fa-moon text-xl"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 pt-24 pb-12">
+      <!-- About Section -->
+      <section class="mb-16" id="about">
+        <div class="card p-8" data-aos="fade-up">
+          <div
+            class="flex flex-col md:flex-row gap-8 items-center md:items-start"
+          >
+            <!-- Profile Picture -->
+            <div
+              class="w-48 h-48 flex-shrink-0"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <img
+                alt="Ammar's photo"
+                class="profile-image w-full h-full object-cover"
+                src="https://i.postimg.cc/bY46XYz4/myphoto.jpg"
+              />
+            </div>
+            <!-- About Content -->
+            <div class="flex-grow" data-aos="fade-left" data-aos-delay="400">
+              <h2 class="text-3xl font-bold mb-4 gradient-text">About Me</h2>
+              <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                AI Student | Machine Learning Enthusiast | Data Analyst
+              </p>
+              <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                I'm a Machine Learning student at the Faculty of Artificial Intelligence, Menoufia University, with a strong foundation in Python, data preprocessing, and core ML algorithms. Skilled in data analysis, predictive modeling, and building NLP and computer vision projects using libraries such as Pandas, NumPy, and Scikit-learn.
+              </p>
+              <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                Passionate about applying AI techniques to solve real-world problems, exploring large language models, and building intelligent systems. Continuously learning and improving my expertise in machine learning, deep learning, and artificial intelligence.
+              </p>
+              <div>
+                <h3 class="text-xl font-semibold mb-4">Skills</h3>
+                <div class="flex flex-wrap gap-3">
+                  <span class="skill-tag bg-blue-100 text-blue-800"
+                    >Python</span
+                  >
+                  <span class="skill-tag bg-purple-100 text-purple-800"
+                    >NumPy</span
+                  >
+                  <span class="skill-tag bg-blue-100 text-blue-800"
+                    >Pandas</span
+                  >
+                  <span class="skill-tag bg-purple-100 text-purple-800"
+                    >Matplotlib</span
+                  >
+                  <span class="skill-tag bg-blue-100 text-blue-800">Scikit-Learn</span>
+                  <span class="skill-tag bg-purple-100 text-purple-800"
+                    >TensorFlow</span
+                  >
+                  <span class="skill-tag bg-blue-100 text-blue-800">Keras</span>
+                  <span class="skill-tag bg-blue-100 text-blue-800"
+                    >Machine Learning</span
+                  >
+                  <span class="skill-tag bg-purple-100 text-purple-800"
+                    >Deep Learning</span
+                  >
+                  <span class="skill-tag bg-blue-100 text-blue-800"
+                    >Data Science</span
+                  >
+                  <span class="skill-tag bg-purple-100 text-purple-800"
+                    >Git</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <!-- Education Section -->
+      <section
+        class="mb-24 py-20 bg-gradient-to-r from-purple-50 to-blue-50"
+        id="education"
+      >
+        <h2
+          class="text-4xl font-bold mb-16 gradient-text text-center"
+          data-aos="fade-up"
+        >
+          Education
+        </h2>
+
+        <div class="flex justify-center" data-aos="zoom-in">
+          <div class="card p-12 w-full max-w-5xl text-center shadow-2xl">
+            <!-- Icon -->
+            <div class="flex justify-center mb-6">
+              <i class="fas fa-graduation-cap text-6xl text-purple-700"></i>
+            </div>
+
+            <!-- Title -->
+            <h3 class="text-3xl font-bold mb-4 text-gray-800">
+              Faculty of Artificial Intelligence
+            </h3>
+
+            <!-- University -->
+            <p class="text-xl text-gray-700 mb-4">
+              Menoufia University
+            </p>
+
+            <!-- Date -->
+            <p class="text-lg text-gray-600 mb-10">
+              Current Student
+            </p>
+
+            <!-- Highlights -->
+            <div class="grid md:grid-cols-3 gap-8 text-left md:text-center">
+              <div
+                class="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition"
+              >
+                ✔ Focused on
+                <span class="font-semibold"
+                  >Artificial Intelligence & Machine Learning</span
+                >
+              </div>
+              <div
+                class="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition"
+              >
+                ✔ Building skills in
+                <span class="font-semibold">Deep Learning & Advanced AI</span>
+              </div>
+              <div
+                class="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition"
+              >
+                ✔ Working on
+                <span class="font-semibold"
+                  >practical projects and real-world applications</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Projects Section -->
+      <section id="projects" class="mt-16 mb-24">
+        <h2 class="text-3xl font-bold mb-8 gradient-text" data-aos="fade-up">
+          Featured Projects
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Project 1 -->
+          <div class="card overflow-hidden" data-aos="fade-up">
+            <div class="p-6">
+              <!-- Project Title -->
+              <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+                🏠 House Price Prediction ML Project
+              </h3>
+
+              <!-- Short Description -->
+              <p class="text-gray-600 mb-6">
+                A comprehensive machine learning project for predicting house prices using advanced ML algorithms. The project includes
+                <span class="font-semibold"
+                  >data preprocessing, feature engineering, model training, and evaluation</span
+                > for accurate price predictions based on various property features and market data.
+              </p>
+
+              <!-- Skills / Techniques -->
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="skill-tag bg-gray-100 text-gray-800"
+                  >Machine Learning</span
+                >
+                <span class="skill-tag bg-gray-100 text-gray-800"
+                  >Python</span
+                >
+                <span class="skill-tag bg-gray-100 text-gray-800">Data Analysis</span>
+                <span class="skill-tag bg-gray-100 text-gray-800"
+                  >Feature Engineering</span
+                >
+                <span class="skill-tag bg-gray-100 text-gray-800"
+                  >Model Evaluation</span
+                >
+              </div>
+
+              <!-- Links -->
+              <div class="flex gap-4 justify-center">
+                <a
+                  href="https://github.com/ammarbelshamy/Creativa_Flask_Project"
+                  target="_blank"
+                  class="px-6 py-2 bg-purple-600 text-white rounded-xl shadow hover:bg-purple-700 transition"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="card overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+            <div class="p-6">
+              <!-- Project Title -->
+              <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+                🩺 Diabetes Prediction Preprocessing Pipeline
+              </h3>
+
+              <!-- Short Description -->
+              <p class="text-gray-600 mb-6">
+                A comprehensive data preprocessing pipeline for diabetes prediction
+                that includes
+                <span class="font-semibold"
+                  >data cleaning, missing value handling, categorical encoding, and feature engineering</span
+                > with age groups, BMI categorization, and comorbidity analysis.
+              </p>
+
+              <!-- Skills / Techniques -->
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="skill-tag bg-gray-100 text-gray-800"
+                  >Data Preprocessing</span
+                >
+                <span class="skill-tag bg-gray-100 text-gray-800"
+                  >Feature Engineering</span
+                >
+                <span class="skill-tag bg-gray-100 text-gray-800"
+                  >Pandas</span
+                >
+                <span class="skill-tag bg-gray-100 text-gray-800">NumPy</span>
+                <span class="skill-tag bg-gray-100 text-gray-800"
+                  >Data Analysis</span
+                >
+              </div>
+
+              <!-- Links -->
+              <div class="flex gap-4 justify-center">
+                <a
+                  href="https://github.com/ammarbelshamy/diabetes-prediction-preprocessing"
+                  target="_blank"
+                  class="px-6 py-2 bg-purple-600 text-white rounded-xl shadow hover:bg-purple-700 transition"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="mb-16" id="services">
+        <h2 class="text-3xl font-bold mb-8 gradient-text" data-aos="fade-up">
+          Services
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="card p-6 text-center" data-aos="fade-up">
+            <i class="fas fa-brain text-3xl text-purple-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Machine Learning</h3>
+            <p class="text-gray-600">
+              Developing predictive models and AI solutions for real-world problems.
+            </p>
+          </div>
+
+          <div
+            class="card p-6 text-center"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <i class="fas fa-chart-bar text-3xl text-blue-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Data Analysis</h3>
+            <p class="text-gray-600">
+              Extracting insights from data through analysis and visualization.
+            </p>
+          </div>
+
+          <div
+            class="card p-6 text-center"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <i class="fas fa-cogs text-3xl text-purple-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Data Preprocessing</h3>
+            <p class="text-gray-600">
+              Cleaning and preparing data for machine learning pipelines.
+            </p>
+          </div>
+
+          <div
+            class="card p-6 text-center"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <i class="fas fa-eye text-3xl text-blue-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Computer Vision</h3>
+            <p class="text-gray-600">
+              Building image processing and computer vision applications using deep learning.
+            </p>
+          </div>
+
+          <div
+            class="card p-6 text-center"
+            data-aos="fade-up"
+            data-aos-delay="800"
+          >
+            <i class="fas fa-language text-3xl text-purple-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Natural Language Processing</h3>
+            <p class="text-gray-600">
+              Working with text data and language processing using modern NLP techniques.
+            </p>
+          </div>
+
+          <div
+            class="card p-6 text-center"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+          >
+            <i class="fas fa-project-diagram text-3xl text-blue-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">AI Model Development</h3>
+            <p class="text-gray-600">
+              Creating and deploying intelligent machine learning models for real-world applications.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section class="mb-16" id="pricing">
+        <h2 class="text-3xl font-bold mb-8 gradient-text" data-aos="fade-up">
+          Pricing
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="card p-6 text-center" data-aos="fade-up">
+            <h3 class="text-xl font-semibold mb-4">Basic</h3>
+            <p class="text-2xl font-bold text-blue-600 mb-4">$100</p>
+            <ul class="text-gray-600 mb-4 space-y-2">
+              <li>Data Cleaning & Preprocessing</li>
+              <li>Exploratory Data Analysis</li>
+              <li>Basic ML Model Training</li>
+            </ul>
+            <button
+              class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              Choose
+            </button>
+          </div>
+
+          <div
+            class="card p-6 text-center border-2 border-purple-600"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h3 class="text-xl font-semibold mb-4">Standard</h3>
+            <p class="text-2xl font-bold text-purple-600 mb-4">$200</p>
+            <ul class="text-gray-600 mb-4 space-y-2">
+              <li>Advanced ML/DL Model</li>
+              <li>Model Documentation</li>
+              <li>Technical Support</li>
+            </ul>
+            <button
+              class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700"
+            >
+              Choose
+            </button>
+          </div>
+
+          <div
+            class="card p-6 text-center"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <h3 class="text-xl font-semibold mb-4">Premium</h3>
+            <p class="text-2xl font-bold text-blue-600 mb-4">$300</p>
+            <ul class="text-gray-600 mb-4 space-y-2">
+              <li>Complete AI Solution</li>
+              <li>Model Deployment & MLOps</li>
+              <li>Ongoing AI Support</li>
+            </ul>
+            <button
+              class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              Choose
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- USP Section -->
+      <section class="mb-16" id="usp">
+        <h2 class="text-3xl font-bold mb-8 gradient-text" data-aos="fade-up">
+          Why Choose Me?
+        </h2>
+        <div class="card p-6 text-center" data-aos="fade-up">
+          <p class="text-gray-600 text-lg leading-relaxed">
+            I am passionate about building innovative AI solutions
+            that solve real-world problems. My strength lies in combining
+            <span class="text-purple-600 font-semibold"
+              >academic AI knowledge</span
+            >
+            with
+            <span class="text-blue-600 font-semibold"
+              >practical machine learning skills</span
+            >, creating solutions in
+            <strong
+              >Machine Learning, Data Analysis, Computer Vision, Natural Language Processing, and Artificial Intelligence</strong
+            >.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="mb-16 w-full" id="contact">
+        <div
+          class="card p-10 w-full max-w-4xl mx-auto text-center"
+          data-aos="fade-up"
+        >
+          <h2 class="text-3xl font-bold mb-6 gradient-text">Contact With Me</h2>
+          <p class="mb-6 text-gray-600">
+            Feel free to reach out through any of the platforms below:
+          </p>
+
+          <div class="flex justify-center gap-6 text-3xl">
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.me/201061637314"
+              target="_blank"
+              class="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-blue-600 text-white shadow-md hover:opacity-90 transition"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <!-- Email -->
+            <a
+              href="mailto:elshamyammar38@gmail.com"
+              target="_blank"
+              class="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-blue-600 text-white shadow-md hover:opacity-90 transition"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/ammar-elshamy-27958725a"
+              target="_blank"
+              class="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-blue-600 text-white shadow-md hover:opacity-90 transition"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a
+              href="https://github.com/ammarbelshamy"
+              target="_blank"
+              class="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-blue-600 text-white shadow-md hover:opacity-90 transition"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/ammar.elshamy.376"
+              target="_blank"
+              class="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-blue-600 text-white shadow-md hover:opacity-90 transition"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scroll to Top Button -->
+      <div class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+      </div>
+      <!-- Initialize AOS -->
+      
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
